@@ -1002,12 +1002,15 @@ button {
     }
 
     .hero-content {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .hero-image {
+        order: -1;
         display: flex;
         justify-content: center;
+        margin-bottom: 30px;
     }
 
     .about-content {
