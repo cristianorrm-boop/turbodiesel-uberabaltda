@@ -238,7 +238,7 @@ button {
     right: 0;
     bottom: 0;
     background: linear-gradient(135deg, rgba(30, 58, 95, 0.95) 0%, rgba(30, 58, 95, 0.85) 100%),
-                url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920&q=80') center/cover no-repeat;
+        url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1920&q=80') center/cover no-repeat;
     z-index: -1;
 }
 
@@ -1006,7 +1006,8 @@ button {
     }
 
     .hero-image {
-        display: none;
+        display: flex;
+        justify-content: center;
     }
 
     .about-content {
